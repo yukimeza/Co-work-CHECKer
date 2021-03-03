@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+body{
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+}
+
+/* 画面の下の隙間をなくす */
+img{
+  vertical-align: bottom;
+}
+
+img#preview{
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+input{
+	color: #800000;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+}
+
+label, 
+select, 
+button, 
+input[type="submit"], 
+input[type="radio"], 
+input[type="checkbox"] 
+input[type="button"] {
+    cursor: pointer;
+}
+
+select#taion{
+  box-sizing: 50px;
+}
+
+input[type="file"]{
+  width: 100%;
+}
+
+input[type="time"]{
+
+}
+
+form p{
+  font-size: 1.3rem;
+  color: #8b4513;
+}
+
+a, 
+a:visited, 
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+::selection {
+    background: #ed327b;
+    color: #000;
+}
+
+::-moz-selection {
+    background: #ed327b;
+    color: #000;
+}
+
+* {
+    font-size:100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  background:#63b47a;
+}
+
+* {
+  font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+h5 {
+  text-align:center;
+  margin-top:5px;
+  color:rgba(0,0,0,.3);
+}
+
+h5 > a,a:visited {
+  color:#fff;
+  text-decoration:underline;
+}
+
+h5 > a:hover {
+  text-decoration:none;
+}
+
+img{
+  border-radius: 8px;  
+}
+
+
+form {
+  background:#fff;
+  border-radius:6px;
+  padding:20px;
+  padding-top:30px;
+  width:300px;
+  margin:50px auto;
+}
+
+form#ikon{
+  width: 400px;
+}
+
+div#taion{
+  width:100%;
+  margin:1em auto;
+  position:relative;
+}
+
+h1 {
+  margin-top: 40px;
+  text-align:center;
+  font-size:2.0rem;
+  font-weight:700;
+  color:#8b4513;
+  margin-bottom:24px;
+}
+
+
+h2 {
+  margin: 40px;
+  text-align:center;
+  font-size:2em;
+  font-weight:700;
+  color:#8b4513;
+  margin-bottom:24px;
+}
+
+
+h3{
+
+  font-size: 1.5rem;
+  color: #8b4513;
+  margin: 20px 0 20px 0;
+}
+
+
+h4{
+  font-size: 1rem;
+  color: #8b4513;
+  margin: 10px 0 20px 0;
+}
+
+
+span{
+	font-size:30px;
+}
+
+span#red {
+  font-weight:200;
+  font-size: 20px;
+  color: red;
+}
+
+input {
+  width:100%;
+  background:#f5f5f5;
+  border:0;
+  padding:20px;
+  border-radius:6px;
+  margin-bottom:10px;
+  border:1px solid #eee;
+}
+
+/* inputのすぐ隣に配置するメッセージ要素 */
+.error-message {
+  font-size: 20px;
+  color: #ff7676;
+  display: none; /* 非表示に */
+}
+/* :invalid時だけ隣の要素を表示 */
+input:invalid + .error-message  {
+  display: block;
+}
+
+
+button a{
+  display: block;
+}
+
+.btn {
+  position:relative;
+  margin: 10px auto 10px auto;
+  width:100%;
+  padding:20px;
+  border-radius:6px;
+  border:0;
+  background:#8b4513;
+  font-size:1.2em;
+  color:#fff;
+}
+
+.btn:active {
+  top:3px;
+  box-shadow:none;
+}
+
+h6 {
+  text-align:center;
+  padding:20px;
+  padding-top:35px;
+  color:#6b8e23;
+  cursor:pointer;
+}
+
+.wrappercan{
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  margin:50px auto;
+  border-radius: 7px;
+  font-size:1.2em;
+}
+
+p#kibun{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
